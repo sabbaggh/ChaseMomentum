@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("ModernAge.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #161a1d;
+    padding: 25px 50px;
+}
+
+nav ul,
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 30px;
+    letter-spacing: 1px;
+}
+
+.navElemento {
+    text-decoration: none;
+    font-family: 'Oswald';
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#logo {
+    font-family: 'CustomFont';
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.navElemento:hover {
+    color: #b1a7a6;
+}
+
+
+
+body {
+    background-color: #00b4d8;
+}
+.footer {
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+    background-color: #161a1d;
+
+}
+
+.iconos li,
+.iconos {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Oswald';
+    color: #fff;
+}
+
+.iconos li {
+    margin-right: 30px;
+}
+
+.terminos {
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: #b1a7a6;
+    text-decoration: none;
+}
+
+/*Fin parte necesaria*/
+
+.texto-img{
+    padding: 50px;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgb(8, 8, 8)), url(imagenes/chase-chappell-m29D0DvAhF0-unsplash.jpg);
+    background-size: cover;
+    height: 700px;
+    text-align: left;
+    justify-content: left;
+    background-position: top;
+}
+
+.titulo-img{
+    margin-top: 100px;
+    font-family: 'Oswald';
+    width: 70%;
+    float: left;
+    font-size: 90px;
+    color: #fff;
+}
+
+.primero{
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    padding-bottom: 1000px;
+}
+
+.carousel-item{
+    height: 32rem;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: 'Oswald';
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    margin-right: 500px;
+}
+
+#login{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald';
+
+}
+
+#register{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald';
+    border: 3px solid #00b4d8;
+    padding: 7px 13px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#register:hover{
+    background-color: #00b4d8;
+}
+
+.inicios{
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+#logout{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border: 3px solid #00b4d8;
+    padding: 7px 13px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#logout:hover{
+    background-color: #00b4d8;
+}
+
+#nombreUsuario{
+    color: #fff;
+}

@@ -1,0 +1,462 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("ModernAge.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #161a1d;
+    padding: 30px 50px;
+}
+
+nav ul,
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 30px;
+    letter-spacing: 1px;
+}
+
+.navElemento {
+    text-decoration: none;
+    font-family: 'Oswald';
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#logo {
+    font-family: 'CustomFont';
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.navElemento:hover {
+    color: #b1a7a6;
+}
+
+
+
+body {
+    background-color: #00b4d8;
+}
+
+#primero {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+.imaen1 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.footer {
+    display: flex;
+    padding: 90px;
+    justify-content: space-between;
+    background-color: #161a1d;
+
+}
+
+.iconos li,
+.iconos {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Oswald';
+    color: #fff;
+}
+
+.iconos li {
+    margin-right: 30px;
+}
+
+.terminos {
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: #b1a7a6;
+    text-decoration: none;
+}
+
+.br {
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    font-family: 'CustomFont';
+    color: #fff;
+    font-size: 37px;
+    opacity: 0.7;
+}
+
+.centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 65px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.historia{
+    align-items: center;
+    font-family: 'Oswald';
+    color: #fff;
+    margin: 50px 300px;
+}
+
+.aspiracion{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 100px;
+    line-height: 1.25;
+}
+
+.parrafo{
+    font-size: 28px;
+    line-height: 1.25;
+}
+
+/*Editado */
+.imaen2 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.xdd {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background-color: #161a1d;
+    margin-top: 100px;
+}
+
+.centro2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 100%;
+}
+
+.contenedormv{
+    font-family: 'Oswald';
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izq{
+    width: 40%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-right: 2px solid #00b4d8;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+.der{
+    width: 40%;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+}
+
+.titulo{
+    font-size: 55px;
+    color: #00b4d8;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.imaen3 {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+.bolded{
+    font-weight: bold;
+}
+
+.texto-img{
+    padding: 50px;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgb(8, 8, 8)), url(imagenes/LE-SSERAFIM-press-credit-SOURCE-MUSIC-2023-billboard-exclusive-1548.webp);
+    background-size: cover;
+    height: 700px;
+    text-align: right;
+    justify-content: center;
+    background-position: top;
+}
+
+.titulo-img{
+    margin-top: 150px;
+    font-family: 'Oswald';
+    width: 55%;
+    float: right;
+    font-size: 125px;
+    color: #fff;
+}
+
+.info {
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    padding: 100px 200px;
+    background-color: rgb(8,8, 8);
+}
+
+.contenedor {
+    display: flex;
+}
+.informacion {
+    width: 60%;
+    margin-right: 5%;
+    padding-right: 5%;
+    font-family: 'Oswald';
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.informacionxdd {
+    width: 60%;
+    font-family: 'Oswald';
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    border-right: none;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 25px;
+}
+
+.imagenes {
+    width: 35%;
+    object-fit: cover;
+}
+
+.imagen {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.nombres{
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid #b1a7a6;
+}
+
+#login{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald';
+
+}
+
+#register{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald';
+    border: 3px solid #00b4d8;
+    padding: 7px 13px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#register:hover{
+    background-color: #00b4d8;
+}
+
+.inicios{
+    margin-right: 100px;
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+#logout{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border: 3px solid #00b4d8;
+    padding: 7px 13px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#logout:hover{
+    background-color: #00b4d8;
+}
+
+#nombreUsuario{
+    color: #fff;
+}

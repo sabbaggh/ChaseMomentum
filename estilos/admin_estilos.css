@@ -1,0 +1,84 @@
+body{
+    background-color: #0d1b2a;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contMenu{
+    text-align: center;
+    padding: 10px 230px;
+}
+
+.botonMenu{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: #84a59d;
+    color: #f9f7f3;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.botonMenu:hover{
+    background-color: #415a77;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tbl-qa {
+	width: 100%;
+	font-size: 0.9em;
+	background-color: #6ab5b9;
+	border-spacing: 1px;
+	border-radius: 4px;
+}
+
+.tbl-qa th.table-header {
+	padding: 5px;
+	text-align: left;
+	padding: 10px;
+	color: #FFF;
+	font-weight: normal;
+}
+
+.tbl-qa .table-row td {
+	padding: 10px;
+	background-color: #ebf6f7;
+	vertical-align: top;
+}
+
+.button_link {
+	padding: 20px 0px;
+	text-align: right;
+}
+
+.button_link a {
+	color: #428a8e;
+	text-decoration: none;
+	background-color: FFF;
+	padding: 8px 20px;
+	font-size: 0.8em;
+	border: #428a8e 1px solid;
+	border-radius: 4px;
+}
+
+.message {
+	color: #FF0000;
+	text-align: center;
+	width: 100%;
+}
+
+.txtField {
+	padding: 8px;
+	border: #afced0 1px solid;
+	border-radius: 4px;
+	width: 250px;
+}
